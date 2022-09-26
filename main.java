@@ -1,9 +1,12 @@
 public class main {
-  public static void main(String[] args) { 
+  static void say() { 
+    System.out.println("main"); 
+  }
 
-    Hello hello = new Hello("hello world");
-    hello.say();
-    
+  public static void main(String[] args) {
+  say();
+  Hello hello = new Hello();
+  hello.say("hello world");
   }
 
 }
