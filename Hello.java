@@ -1,7 +1,9 @@
 public class Hello { 
-  public void say() { 
-    String msg = "hello";
-    public void say() {
-      System.out.println(msg); 
-    } 
+  String msg = "hello";
+  public Hello(String msg) {
+    this.msg = msg; 
+  } 
+  public void say() {
+    System.out.println(msg);
+  } 
 }
